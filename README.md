@@ -14,9 +14,9 @@ In the below example we'll create a multi-random-access instance that writes to 
 
 ``` js
 var multi = require('multi-random-access')
-var file = require('random-access-memory')
+var file = require('random-access-file')
 
-var length = file('/tmp/multi-length-file')
+var length = file('/tmp/multi-length')
 var storage = multi(length, function (offset, cb) {
   var index = Math.floor(offset / 10)
 
