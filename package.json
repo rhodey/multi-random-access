@@ -10,7 +10,6 @@
     "sorted-array-functions": "^1.0.0"
   },
   "devDependencies": {
-    "random-access-test": "github:random-access-storage/random-access-test",
     "random-access-file": "^2.1.3"
   },
   "scripts": {
